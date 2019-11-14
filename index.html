@@ -6,13 +6,13 @@
       Well, I'll tell you. Dr. B used ...
     <ol>
       <li> .transition() - When going from old values to new values, transition calcualtes all the values between the old and
-                           the new and creates a smooth transition between the two.</li>
+                           the new and creates a smooth transition between the two.</li><br>
       <li> .duration() - This controls how long the transition will last in milliseconds. For example, if you used .duration(2000),
-                         the transition would last two seconds. This must be placed after .transition() and before .attr().</li>
+                         the transition would last two seconds. This must be placed after .transition() and before .attr().</li><br>
       <li> .ease() -  This is the quality of motion or at what rate the motion is happening. One type of ease is d3.easeLinear,
                       which allows the rate of motion to be constant. Another type of ease is d3.easeCubicInOut. This is the default
                       easing that starts out slow, speeds up in the middle, and slows down towards the end. This also must be placed
-                      after .transition() and before .attr().</li>
+                      after .transition() and before .attr().</li><br>
       <li> .delay() - This determines when the transition will occur. This uses milliseconds as well. For example, if you used,
                       .delay(2000), then the transition would wait to occur until 2 seconds had gone by. This is called a static
                        delay. You can also do dynamic delays. So for example, if you were using an array of data and wanted the 
@@ -21,7 +21,7 @@
       <li> .on() - To control what happens at the beginning and end of a transition, you use .on. In order for something to happen
                     at the beginning of a transition, you would use .on("start", function(){  } and put what code you want to occur
                     at the start inside the function. In order for something to happen at the end of a transition, you would use 
-                    .on("end", function(){  } and put what code you want to occur at the end inside the function.</li>
+                    .on("end", function(){  } and put what code you want to occur at the end inside the function.</li><br>
     </ol>
     </p>  
   </body>
